@@ -15,6 +15,7 @@ void main(){
   int a=5;
   int b=7;
   int sum=add(a,b);
+
   String Name="UNSD";
   int CompanyAge=3;
   print(sum);
@@ -28,6 +29,14 @@ void main(){
   greetUser(name:'anik',messageCount:'3');
 
   greetUser1(name:'Cse',messageCount:2);
+
+  //anonymus Function
+  List<int> numbers=[1,2,3];
+
+  numbers.forEach((int number) => print(number*number)
+  );
+
+  List<int> marks=[60,79,90,76];
 
 
 }
